@@ -8,3 +8,5 @@ Our aim is to lessen people’s suffering when they wish to travel or journey in
 3. Counter/railway location and contact information.
 4. Online ticket booking information.
 5. Significant cities to travel.
+
+See the "Project_report.pdf" for more information.
