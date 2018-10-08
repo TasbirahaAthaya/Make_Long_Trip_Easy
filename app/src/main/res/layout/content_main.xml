@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sharna.navigation.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical"
+    android:background="@drawable/abc1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+
+
+
+        >
+        <ImageButton
+            android:layout_width="1dp"
+            android:layout_height="160dp"
+            android:layout_weight="5"
+            android:src="@drawable/bus2"
+
+
+            android:onClick="mybus"
+            android:layout_margin="4dp"
+            android:layout_marginRight="10dp"/>
+        <ImageButton
+            android:layout_width="1dp"
+            android:layout_height="160dp"
+            android:layout_weight="5"
+            android:src="@drawable/train1"
+
+
+
+            android:onClick="mytrain"
+            android:layout_margin="4dp"
+            android:layout_marginLeft="10dp"/>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BUS SEARCH"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_weight="5"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRAIN SEARCH"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_weight="5"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="15dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

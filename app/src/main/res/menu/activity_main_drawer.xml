@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/city"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="Available Cities"
+        android:textColor="#795548"/>
+    <item
+        android:id="@+id/plan"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Available Bus Service"
+        android:textColor="#795548"/>
+    <item
+        android:id="@+id/train"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Available Train Service"
+        android:textColor="#795548"/>
+
+    <item
+        android:id="@+id/call"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Easy Ticket Booking for Bus"
+        android:textColor="#795548"/>
+
+    <item
+        android:id="@+id/trainticket"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Easy Ticket Booking for Train"
+        android:textColor="#795548"/>
+
+    <item
+        android:id="@+id/AboutUs"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="About Us"
+        android:textColor="#795548"/>
+
+
+</menu>

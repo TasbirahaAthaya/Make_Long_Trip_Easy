@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/abc1"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/r2"
+        android:onClick="search"
+        android:padding="10dp"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="Choose Source And Destination"
+
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="20sp"
+
+
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        />
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="From"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/source2"
+        />
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="To"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/destination2"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+
+        android:background="@drawable/search"
+        android:onClick="searchtrain"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+    </Button>
+
+
+
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/abc1">
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sharna.navigation.About"
+    tools:showIn="@layout/activity_city"
+
+    android:orientation="vertical"
+
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#311B92"
+        android:gravity="center"
+
+        android:layout_margin="4dp"
+        android:layout_marginLeft="10dp"
+        android:text="Available cities"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#fff"
+
+
+        android:layout_marginBottom="200dp" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+
+
+                android:layout_margin="4dp"
+                android:layout_marginLeft="10dp"
+                android:text=" "
+                android:textSize="0sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_marginTop="100dp"
+
+
+
+                android:layout_marginBottom="200dp" />
+    <TextView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#07000000"
+        android:gravity="center"
+        android:text="Dhaka "
+        android:textSize="23sp"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+
+
+        android:layout_margin="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#07000000"
+        android:gravity="center"
+
+        android:textAlignment="center"
+        android:layout_margin="4dp"
+        android:layout_marginLeft="10dp"
+        android:text="Rajshahi "
+        android:textSize="23sp"
+        android:textStyle="bold|italic"
+        android:textColor="#000"
+
+        android:layout_marginTop="100dp"
+         />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#07000000"
+                android:gravity="center"
+                android:text="Khulna"
+                android:textSize="23dp"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:textColor="#000"
+
+                android:layout_margin="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="100dp" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#07000000"
+                android:gravity="center"
+                android:text="Barisal"
+                android:textSize="23dp"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:textColor="#000"
+
+                android:layout_margin="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="100dp" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#07000000"
+                android:gravity="center"
+                android:text="Rangpur"
+                android:textSize="23dp"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:textColor="#000"
+
+                android:layout_margin="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="100dp" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#07000000"
+                android:gravity="center"
+                android:text="sylhet"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="23dp"
+                android:textStyle="bold|italic"
+
+                android:layout_margin="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="100dp" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#07000000"
+                android:gravity="center"
+                android:text="Chittagong"
+                android:textSize="23dp"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:textColor="#000"
+
+                android:layout_margin="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="100dp" />
+
+        </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
+
